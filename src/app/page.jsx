@@ -237,7 +237,7 @@ export default function Home() {
       <header className="nav">
 
         <a className="logo" href="#top">
-          CITY <em>IN</em>
+          CITY <em>INN</em>
           <small>RESTAURANT · BAR · STAY</small>
         </a>
 
