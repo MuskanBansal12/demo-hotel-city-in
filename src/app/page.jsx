@@ -79,7 +79,7 @@ const galleryImages = [
 ========================================= */
 
 const initialForm = {
-  destination: 'City In',
+  destination: 'City Inn',
   name: '',
   phone: '',
   checkin: '',
@@ -299,7 +299,7 @@ export default function Home() {
 
           <img
             src={photo.hero}
-            alt="City In restaurant interior"
+            alt="City Inn restaurant interior"
           />
 
           <div className="hero-shade" />
@@ -331,7 +331,7 @@ export default function Home() {
           >
 
             <p className="eyebrow">
-              WELCOME TO CITY IN
+              WELCOME TO CITY INN
             </p>
 
             <h1>
@@ -348,7 +348,7 @@ export default function Home() {
                 className="gold-btn"
                 href="#experience"
               >
-                EXPLORE CITY IN
+                EXPLORE CITY INN
                 <ArrowUpRight size={19} />
               </a>
 
@@ -401,7 +401,7 @@ export default function Home() {
               </p>
 
               <h2>
-                Find your place at <i>CITY IN.</i>
+                Find your place at <i>CITY INN.</i>
               </h2>
 
             </div>
@@ -628,7 +628,7 @@ export default function Home() {
 
                 <p className="hero-form-status" role="status">
                   {status ||
-                    'Your stay is subject to availability and confirmation by CITY IN.'}
+                    'Your stay is subject to availability and confirmation by CITY INN.'}
                 </p>
 
               </form>
@@ -656,8 +656,8 @@ export default function Home() {
         <div className="ticker">
 
           <div>
-            GOOD FOOD ✳ GOOD COMPANY ✳ GOOD NIGHTS ✳ CITY IN ✳
-            GOOD FOOD ✳ GOOD COMPANY ✳ GOOD NIGHTS ✳ CITY IN ✳
+            GOOD FOOD ✳ GOOD COMPANY ✳ GOOD NIGHTS ✳ CITY INN ✳
+            GOOD FOOD ✳ GOOD COMPANY ✳ GOOD NIGHTS ✳ CITY INN ✳
           </div>
 
         </div>
@@ -675,7 +675,7 @@ export default function Home() {
           <motion.div {...rise}>
 
             <p className="eyebrow dark">
-              THE CITY IN WAY / 001
+              THE CITY INN WAY / 001
             </p>
 
             <h2>
@@ -728,7 +728,7 @@ export default function Home() {
 
             <span>02 / DISCOVER</span>
 
-            <span>THREE WAYS TO CITY IN</span>
+            <span>THREE WAYS TO CITY INN</span>
 
           </div>
 
@@ -884,7 +884,7 @@ export default function Home() {
 
             <p>
               From shared meals to a relaxed evening at the bar,
-              CITY IN is made for moments together.
+              CITY INN is made for moments together.
             </p>
 
             <a
@@ -963,7 +963,7 @@ export default function Home() {
 
                 <img
                   src={src}
-                  alt={`City In hospitality gallery ${index + 1}`}
+                  alt={`City Inn hospitality gallery ${index + 1}`}
                 />
 
                 <span>
@@ -993,7 +993,7 @@ export default function Home() {
             <div>
 
               <p className="eyebrow dark">
-                THE CITY IN EXPERIENCE / 006
+                THE CITY INN EXPERIENCE / 006
               </p>
 
               <h2>
@@ -1196,7 +1196,7 @@ export default function Home() {
           <h2>
             See you
             <br />
-            <i>at CITY IN.</i>
+            <i>at CITY INN.</i>
           </h2>
 
 
@@ -1269,7 +1269,7 @@ export default function Home() {
           </a>
 
           <span>
-            © {new Date().getFullYear()} CITY IN
+            © {new Date().getFullYear()} CITY INN
           </span>
 
         </div>

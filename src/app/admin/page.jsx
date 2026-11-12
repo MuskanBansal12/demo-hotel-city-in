@@ -137,7 +137,7 @@ const navigation = [
 ];
 
 const initialSettings = {
-  hotelName: 'CITY IN',
+  hotelName: 'CITY INN',
   tagline: 'Restaurant · Bar · Stay',
   email: 'cityin@example.com',
   phone: '',
@@ -531,7 +531,7 @@ export default function AdminPage() {
 
               <div>
                 <p className="admin-kicker">
-                  OVERVIEW / CITY IN
+                  OVERVIEW / CITY INN
                 </p>
 
                 <h1>Dashboard</h1>
@@ -1215,7 +1215,7 @@ export default function AdminPage() {
             </div>
 
             <div>
-              <strong>City In Admin</strong>
+              <strong>City Inn Admin</strong>
               <span>Demo account</span>
             </div>
 
@@ -1268,7 +1268,7 @@ export default function AdminPage() {
 
             <div>
               <span className="admin-breadcrumb">
-                CITY IN / ADMIN
+                CITY INN / ADMIN
               </span>
 
               <p>
@@ -1318,7 +1318,7 @@ export default function AdminPage() {
           {renderContent()}
 
           <footer className="admin-footer">
-            <span>© {new Date().getFullYear()} CITY IN</span>
+            <span>© {new Date().getFullYear()} CITY INN</span>
             <span>ADMIN DEMO DASHBOARD</span>
           </footer>
 
